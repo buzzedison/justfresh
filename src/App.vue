@@ -4,6 +4,7 @@
     <Main/>
    
     <Body/>
+    <Section/>
   </div>
 </template>
 
@@ -11,12 +12,13 @@
 import Main from './components/main.vue'
 
 import Body from './components/body'
+import Section from './components/section'
 export default {
   name: 'app',
   components: {
     Main,
-    
-    Body
+    Body,
+    Section
     
   }
 }
