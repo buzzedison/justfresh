@@ -2,18 +2,21 @@
   <div id="app">
    
     <Main/>
-    <Intro/>
+   
+    <Body/>
   </div>
 </template>
 
 <script>
 import Main from './components/main.vue'
-import Intro from './components/intro.vue'
+
+import Body from './components/body'
 export default {
   name: 'app',
   components: {
     Main,
-    Intro
+    
+    Body
     
   }
 }
