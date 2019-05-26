@@ -17,5 +17,6 @@
   <style scoped>
 h2{
     padding:30px;
+    padding-top: 90px;
 }
   </style>

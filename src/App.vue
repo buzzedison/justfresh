@@ -2,9 +2,10 @@
   <div id="app">
    
     <Main/>
-   
+   <Slider/>
+   <Section/>
     <Body/>
-    <Section/>
+    
   </div>
 </template>
 
@@ -13,12 +14,14 @@ import Main from './components/main.vue'
 
 import Body from './components/body'
 import Section from './components/section'
+import Slider from './components/slider'
 export default {
   name: 'app',
   components: {
     Main,
+    Section,
     Body,
-    Section
+    Slider
     
   }
 }

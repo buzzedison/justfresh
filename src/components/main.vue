@@ -1,7 +1,7 @@
 <template>
  <div>
    
-  <b-navbar class="mainNav text-white" toggleable="lg" type="dark">
+  <b-navbar class="mainNav" toggleable="lg">
     <b-navbar-brand href="#">Just Fresh</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -10,7 +10,7 @@
       
 
       <!-- Right aligned nav items -->
-      <b-navbar-nav class="ml-auto text-white">
+      <b-navbar-nav class="ml-auto">
         <b-nav-item class="navitem" href="#">Home</b-nav-item>
          <b-nav-item class="navitem" href="#">About</b-nav-item>
           <b-nav-item class="navitem" href="#">Food</b-nav-item>
@@ -68,7 +68,10 @@ a {
   color: #42b983;
 }
 
-
+.navitem{
+  color:black;
+  font-weight:bold;
+}
 
 
 
@@ -78,12 +81,14 @@ a {
 
 .ml-auto {
   color:rgb(248, 184, 8);
- 
+  
   font-size: 18px;
 }
 
 .mainNav{
-  background-color: rgb(59, 58, 58);
+  background-color: transparent;
+  position:fixed;
+  padding-top: 0px;
 }
 
 

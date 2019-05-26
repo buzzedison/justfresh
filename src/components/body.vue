@@ -1,6 +1,6 @@
 <template>
 <div>
-      <b-container fluid class="bv-example-row">
+      <b-container class="bv-example-row">
   <b-row class="w-100">
     <b-col><v-flex>
   <v-hover>
@@ -89,7 +89,7 @@
         <div class="font-weight-light grey--text title mb-2">Get healthy Juices and Smoothies</div>
         <h3 class="display-1 font-weight-light orange--text mb-2">Best juices and smoothies</h3>
         <div class="font-weight-light title mb-2">
-          Everyhing is fresh
+          Everything is fresh
         </div>
       </v-card-text>
     </v-card>
@@ -118,9 +118,14 @@ export default {
 .v-card--reveal {
   align-items: center;
   bottom: 0;
+  
   justify-content: center;
   opacity: .5;
   position: absolute;
   width: 100%;
+}
+
+.bv-example-row{
+    padding-top: 0px;
 }
 </style>
