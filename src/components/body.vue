@@ -12,7 +12,7 @@
     >
       <v-img
         :aspect-ratio="16/9"
-        src="https://cdn.vuetifyjs.com/images/cards/kitchen.png"
+        :src="require('../assets/images/food.jpg')"
       >
         <v-expand-transition>
           <div
@@ -59,7 +59,7 @@
     >
       <v-img
         :aspect-ratio="16/9"
-        src="https://cdn.vuetifyjs.com/images/cards/kitchen.png"
+        :src="require('../assets/images/juice.jpg')"
       >
         <v-expand-transition>
           <div

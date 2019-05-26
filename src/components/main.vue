@@ -1,7 +1,7 @@
 <template>
  <div>
    
-  <b-navbar class="mainNav" toggleable="lg" type="light">
+  <b-navbar class="mainNav text-white" toggleable="lg" type="dark">
     <b-navbar-brand href="#">Just Fresh</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -10,7 +10,7 @@
       
 
       <!-- Right aligned nav items -->
-      <b-navbar-nav class="ml-auto">
+      <b-navbar-nav class="ml-auto text-white">
         <b-nav-item class="navitem" href="#">Home</b-nav-item>
          <b-nav-item class="navitem" href="#">About</b-nav-item>
           <b-nav-item class="navitem" href="#">Food</b-nav-item>
@@ -52,7 +52,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 h3 {
   margin: 40px 0 0;
 }
@@ -77,17 +77,14 @@ a {
 
 
 .ml-auto {
-  color:black;
-  font-family: roboto;
+  color:rgb(248, 184, 8);
+ 
   font-size: 18px;
 }
 
 .mainNav{
-  background-color: rgb(250, 134, 2);
+  background-color: rgb(59, 58, 58);
 }
 
-.navitem{
-  color:black;
-  font-weight: bold;
-}
+
 </style>
