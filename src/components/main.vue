@@ -87,7 +87,7 @@ a {
 
 .mainNav{
   background-color: transparent;
-  position:fixed;
+  
   padding-top: 0px;
 }
 
