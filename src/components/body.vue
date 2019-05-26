@@ -1,6 +1,8 @@
 <template>
 <div>
-<v-flex xs6>
+      <b-container fluid class="bv-example-row">
+  <b-row class="w-100">
+    <b-col><v-flex>
   <v-hover>
     <v-card
       slot-scope="{ hover }"
@@ -18,7 +20,7 @@
             class="d-flex transition-fast-in-fast-out orange darken-2 v-card--reveal display-3 white--text"
             style="height: 100%;"
           >
-            $14.99
+            from GHC 25
           </div>
         </v-expand-transition>
       </v-img>
@@ -46,8 +48,8 @@
     </v-card>
   </v-hover>
 </v-flex>
-
-<v-flex xs6>
+</b-col>
+    <b-col><v-flex>
   <v-hover>
     <v-card
       slot-scope="{ hover }"
@@ -65,7 +67,7 @@
             class="d-flex transition-fast-in-fast-out orange darken-2 v-card--reveal display-3 white--text"
             style="height: 100%;"
           >
-            from GHC 20
+            from GHC 5
           </div>
         </v-expand-transition>
       </v-img>
@@ -92,7 +94,12 @@
       </v-card-text>
     </v-card>
   </v-hover>
-</v-flex>
+</v-flex></b-col>
+   
+  </b-row>
+</b-container>
+
+
 </div>
 
 </template>
