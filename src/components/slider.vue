@@ -48,7 +48,7 @@ export default {
 .slider{
     max-width: 120%;
     background-color:orangered;
-    height: 550px;
+    max-height: 550px;
     
   
 }
